@@ -1,5 +1,3 @@
-import {sayHi} from "./src/tools.js";
+import {launchServer} from "./src/server.js";
 
-console.log("Hello")
-const myName:string = "Lexa!!!"
-sayHi(myName)
+launchServer();

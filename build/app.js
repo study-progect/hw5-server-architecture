@@ -1,4 +1,2 @@
-import { sayHi } from "./src/tools.js";
-console.log("Hello");
-const myName = "Lexa!!!";
-sayHi(myName);
+import { launchServer } from "./src/server.js";
+launchServer();
